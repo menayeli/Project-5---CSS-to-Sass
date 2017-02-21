@@ -1,0 +1,32 @@
+.one-column{
+	@extend %right;
+  @extend %col;
+	width: 100%;	
+  @media #{$brk-tablet}{
+     width: 50%;
+  }
+}
+
+.two-column{
+  @extend %col;
+	@extend %left;
+	width: 100%;
+  @media #{$brk-tablet}{
+  width: 50%;
+	}  
+}
+
+.primary,
+.secondary,
+.tertiary{
+		width: 100%!important;
+		@extend %left;
+    @extend %col;
+    @media #{$brk-tablet}{
+		width: 50%!important;
+		float: left;
+    }
+    @media #{$brk-desktop}{
+    width: 30%!important;
+	  }
+	}

@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+  @include text(.95em, 1.6, $color:$darkgrey);
+	font-family: 'Varela Round', sans-serif;
+	background: $alabaster;
+}
+
+p {
+	margin-bottom: 1.8em;
+}
+
+h2,
+h3 {
+  @include text(1.2em, 1.8, $color:$tarawera);	
+  margin-top: 0;
+}
+
+a {
+  
+  &:link{
+  text-decoration: none;
+  color: $tarawera;
+    }
+    
+  &:visited {
+      color:$black;
+    }
+  &:hover{
+     color: $blue ;
+    }
+}
+
+img {
+	max-width: 100%;
+}

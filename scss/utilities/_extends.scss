@@ -1,0 +1,41 @@
+// Float Left
+
+%left {
+  float: left; 
+}
+
+// Float Right
+
+%right {
+  float: right;  
+}
+
+// Text Centered
+
+%center {
+  text-align:center;
+}
+
+//Nav Links
+
+%n-link{
+  text-align: center;
+	display: block;
+	padding: 10px 0px;
+}
+
+//Padding for columns
+%col {
+	padding-right: 1em;
+	padding-left: 1em;
+}
+
+//Clearfix {
+
+%clearfix {
+  &:after {
+      content: " ";
+      display: table;
+      clear: both;
+  }
+}

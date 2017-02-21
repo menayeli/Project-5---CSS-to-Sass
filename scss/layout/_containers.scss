@@ -1,0 +1,15 @@
+	.container {
+      @extend %clearfix;
+	    width: 100%;
+	    padding: 0 1em;
+      @media #{$brk-tablet}{
+		    width: 90%;
+		    margin: 0 auto;
+		    padding: 0;
+      }
+     @media #{$brk-desktop}{
+        width:80%;
+		    max-width:1150px!important;
+      }
+	}
+

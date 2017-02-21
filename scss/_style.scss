@@ -1,0 +1,44 @@
+
+@media (min-width: 768px) {
+
+
+
+	.main-nav-footer{
+	display: inline-block;
+	float: right;
+	}
+
+	.main-nav-footer li {
+    display: inline-block;
+    margin-right: 10px;
+	}
+
+}
+
+@media (min-width: 1024px){
+
+	.container {
+		width:80%;
+		max-width:1150px!important;
+	}
+
+	.primary, .secondary, .tertiary {
+    width: 30%!important;
+	}
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

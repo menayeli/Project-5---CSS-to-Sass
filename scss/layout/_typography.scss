@@ -1,0 +1,21 @@
+
+.title{
+	@extend %center;
+	text-transform: uppercase;
+	padding: 1em 0;
+}
+
+.description{
+	@extend %center;
+	padding-top:1em; 
+}
+
+.contact-info{
+	@extend %center;
+  padding: 0 19%;
+}
+
+.portfolio{
+	background: $white;
+	margin-top: 15px!important; 
+}

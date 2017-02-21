@@ -1,0 +1,47 @@
+.main-nav{
+  & {
+	 margin-top: 5px;
+   @media #{$brk-tablet}{
+     float: right;	
+    padding-right: 19px;
+    }
+  }
+
+  & li {
+  @media #{$brk-tablet}{
+     display: inline-block;
+    margin-left: 15px;
+    }  
+	}
+
+  & a {
+    @include text(.95em, 1.6, $color:$darkgrey);
+    @extend %n-link;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+	 color: $blue;
+    }
+}
+
+.name {
+  & {
+    font-size: 1.25em;
+    margin: 0;
+    @extend %left;
+    width: 100%;
+    @media #{$brk-tablet}{
+      width: 25%;
+      }
+    @media #{$brk-desktop}{
+      width: 20%;
+    }
+  }
+  
+  & a {
+    @extend %n-link;
+  }
+}
+
+
